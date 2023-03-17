@@ -1,0 +1,28 @@
+header {
+    background-color: var(--headingColor);
+    height: 10vh;
+    line-height: 10vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo>img {
+    height: 25px;
+}
+
+header a {
+    margin-left: 40px;
+}
+
+section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
