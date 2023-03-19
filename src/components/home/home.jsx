@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import Services from '../Services/Services'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
+            <Footer></Footer>
         </>
     )
 }

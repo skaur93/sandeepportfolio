@@ -16,13 +16,3 @@ header {
 header a {
     margin-left: 40px;
 }
-
-section {
-    height: 90vh;
-    display: flex;
-    align-items: center;
-}
-
-.flex {
-    display: flex;
-}

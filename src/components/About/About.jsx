@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../..//components/Heading/Heading';
-import logo from '../../assets/img/pot1.png'
+import logo from '../../assets/img/aboutme.jpg'
 import './About.css'
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
 
                             Overall, as a Full Stack Developer, I bring a wealth of knowledge, skills, and experience to any software development project, and am capable of delivering high-quality solutions that meet the needs of the client and end-users.</p>
                         <p>I hold both a Bachelor's degree in information technology and a Postgraduate diploma in computer software.</p>
-                        <button className='primaryBtn'>Dowmload CV</button>
+                        {/* <button className='primaryBtn'>Dowmload CV</button> */}
 
                     </div>
                 </div>

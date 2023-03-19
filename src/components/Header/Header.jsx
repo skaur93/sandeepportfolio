@@ -8,11 +8,11 @@ const Header = () => {
         <header>
             <div className="container flexsb">
                 <div className="logo">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" data-aos='zoom-in-right' />
                 </div>
 
-                <div className="nav">
-                    <Link to="/home">Home</Link>
+                <div className="nav" data-aos='zoom-in-left'>
+                    <Link to="/home" >Home</Link>
                     <Link to="/about">About</Link>
                     <Link to="/skills">Skills</Link>
                     <Link to="/skills">Projects</Link>

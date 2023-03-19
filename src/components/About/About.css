@@ -14,3 +14,13 @@
 .right {
     width: 65%;
 }
+
+section {
+    height: 100vh;
+}
+
+.left>img {
+    height: 15rem;
+    width: 15rem;
+
+}

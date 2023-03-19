@@ -6,6 +6,9 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 import {
   BrowserRouter,
   Routes,
@@ -13,9 +16,16 @@ import {
   Link,
 } from "react-router-dom";
 import Projects from './components/Projects/Projects';
+import { useEffect } from 'react';
 
 
 function App() {
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+  }, []
+  )
+
   return (
     <BrowserRouter>
       <div className="App">
