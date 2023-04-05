@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from '../..//components/Heading/Heading';
-import logo from '../../assets/img/aboutme.jpg'
+// import logo from '../../assets/img/aboutme.jpg'
 import './About.css'
 
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
             <section className="about">
                 <div className="container flex">
                     <div className="left">
-                        <img src={logo} alt="" />
+                        <img src='' alt="" />
                     </div>
                     <div className="right">
                         <Heading title="About me"> </Heading>
