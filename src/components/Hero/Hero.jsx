@@ -15,7 +15,7 @@ function Hero() {
                         I am full stack devloper having 5+ years of experince working with different multi national companies.
                         I am full stack devloper having 5+ years of experince working with different multi national companies.
                     </p>
-                    <button className="primaryBtn" data-aos='fade-up'>Downlaod Resume</button>
+                    <button className="primaryBtn" data-aos='fade-up'>Download Resume</button>
                 </div>
             </section>
         </>
