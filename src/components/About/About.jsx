@@ -12,7 +12,7 @@ const About = () => {
                         <img src='' alt="" />
                     </div>
                     <div className="right">
-                        <Heading title="About me"> </Heading>
+                        <Heading title="About me"></Heading>
                         <p>As a Full Stack Developer, I possess a diverse range of skills and expertise in both front-end and back-end web development. With my extensive knowledge of various programming languages, frameworks, and libraries, I am capable of handling all stages of software development, from concept and planning to deployment and maintenance.
 
                             As a Full Stack Developer, I have a deep understanding of the different components that make up a web application, including the user interface, server-side logic, and database integration. I am proficient in developing dynamic and interactive web pages using languages such as HTML, CSS, and JavaScript, as well as utilizing different frameworks and libraries such as React, Angular, and Vue.

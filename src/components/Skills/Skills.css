@@ -4,7 +4,35 @@ a {
     width: 120px;
 }
 
+.skills {
+    flex-direction: column;
+}
+
+.skills>h2 {
+    margin-top: 8rem;
+}
+
 a>img {
     max-width: 100%;
     height: auto;
+}
+
+.allSkills {
+    min-height: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    margin: auto;
+}
+
+.allSkills>a {
+    width: 4rem;
+    display: flex;
+    flex-basis: calc(27.33% - 35px);
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #4538579e;
+    padding: 1rem;
+    border-radius: 10px;
 }
